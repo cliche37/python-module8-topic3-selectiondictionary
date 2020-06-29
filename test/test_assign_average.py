@@ -16,6 +16,10 @@ class FunctionTests(unittest.TestCase):
         self.assertEqual("third", switch_average('C'))
         self.assertEqual("third", switch_average('c'))
 
+    def test_Dandd_return_value(self):
+        self.assertEqual("fourth", switch_average('D'))
+        self.assertEqual("fourth", switch_average('d'))
+
 
 if __name__ == "__main__":
     unittest.main()
