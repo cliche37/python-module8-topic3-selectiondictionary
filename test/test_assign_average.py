@@ -20,6 +20,10 @@ class FunctionTests(unittest.TestCase):
         self.assertEqual("fourth", switch_average('D'))
         self.assertEqual("fourth", switch_average('d'))
 
+    def test_Eande_return_value(self):
+        self.assertEqual("fifth", switch_average('E'))
+        self.assertEqual("fifth", switch_average('e'))
+
 
 if __name__ == "__main__":
     unittest.main()

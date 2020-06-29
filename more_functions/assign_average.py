@@ -8,7 +8,9 @@ def switch_average(keyinput):
         'C': "third",
         'c': "third",
         'D': "fourth",
-        'd': "fourth"
+        'd': "fourth",
+        'E': "fifth",
+        'e': "fifth"
     }
 
     return switch_dict.get(keyinput, "Key input not found")
