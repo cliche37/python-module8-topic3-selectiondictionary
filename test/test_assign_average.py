@@ -24,6 +24,9 @@ class FunctionTests(unittest.TestCase):
         self.assertEqual("fifth", switch_average('E'))
         self.assertEqual("fifth", switch_average('e'))
 
+    def test_nonkey_input(self):
+        self.assertEqual('Key input not found', switch_average('z'))
+
 
 if __name__ == "__main__":
     unittest.main()
