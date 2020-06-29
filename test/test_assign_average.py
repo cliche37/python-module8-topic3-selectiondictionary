@@ -12,6 +12,10 @@ class FunctionTests(unittest.TestCase):
         self.assertEqual("second", switch_average('B'))
         self.assertEqual("second", switch_average('b'))
 
+    def test_Candc_return_value(self):
+        self.assertEqual("third", switch_average('C'))
+        self.assertEqual("third", switch_average('c'))
+
 
 if __name__ == "__main__":
     unittest.main()
